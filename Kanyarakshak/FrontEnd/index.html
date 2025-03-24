@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KanyaRakshak Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> KanyaRakshak Chatbot</h1>
+        
+        <!-- Chat Display -->
+        <div id="chat-box"></div>
+        
+        <!-- User Input -->
+        <div class="input-section">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+            <button onclick="startVoice()">🎤</button>
+        </div>
+
+        <!-- SOS Button -->
+        <button id="sos-button" onclick="sendSOS()">🚨 SOS</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
